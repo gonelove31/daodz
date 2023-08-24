@@ -1,0 +1,14 @@
+trong tep tailwind.config.js là phải thêm phần content :content: ['./**/*.{html,js,php}'], ( phải có đuôi php nếu ko báo lỗi warn) 
+sau mỗi lần tắt mở vscode là phải chạy lênh : 
+npx tailwindcss -i css/tailwind.css -o build/tailwind.css --watch
+
+
+lỗi khi dùng ô input mà update trên product id nếu chỉ kik vào ô input rồi xóa 1 số rồi sửa nó sẽ ra id lằng nhằng ?? 
+ -> phải bôi đen xóa hết rồi viết lại cả ô product id 
+các cột khác thì không cần ?? 
+
+tức là ví dụ khi tôi nhập ô input tôi gửi dữ liệu bình luận đó đi , thì tôi có thể dùng php để xử lý yêu cầu đó ở phía máy chủ để lưu vào cơ sỏ dữ liệu , đồng thời tôi có thể hiện thẳng bình luận đó thông qua như js để  hiện thẳng ra giao diện , sau đó khi máy chủ phản hồi xong thì nó cũng sẽ cập nhật bình luận đó theo  cơ sở dữ liệu 
+https://chat.openai.com/share/a957b3f2-a24f-4e7b-bcc8-129b00cbc9f8 // chuc nang comment
+
+
+
